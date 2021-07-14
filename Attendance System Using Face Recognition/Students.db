@@ -1,0 +1,11 @@
+create database Students;
+use Students;
+create table student(NAME varchar(20),ROLLNUMBER varchar(10));
+alter  table student add (section char(1));
+desc student;
+
+insert into student value('Dharun','19CS033','A');
+
+select * from student;
+
+truncate student;
